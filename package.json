@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.4",
+    "vite": "^2.6.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "main": "index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.min.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "sideEffects": false
+}
